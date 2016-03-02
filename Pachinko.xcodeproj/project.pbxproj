@@ -44,6 +44,7 @@
 		F7309E271C6A54A20095DD4E /* slotGlowGood.png in Resources */ = {isa = PBXBuildFile; fileRef = F7309E0B1C6A54A20095DD4E /* slotGlowGood.png */; };
 		F7309E281C6A54A20095DD4E /* slotGlowGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7309E0C1C6A54A20095DD4E /* slotGlowGood@2x.png */; };
 		F7309E291C6A54A20095DD4E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F7309E0D1C6A54A20095DD4E /* spark.png */; };
+		F74934A91C85F80900DFD9E2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74934A81C85F80900DFD9E2 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		F7309E0B1C6A54A20095DD4E /* slotGlowGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotGlowGood.png; sourceTree = "<group>"; };
 		F7309E0C1C6A54A20095DD4E /* slotGlowGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowGood@2x.png"; sourceTree = "<group>"; };
 		F7309E0D1C6A54A20095DD4E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		F74934A81C85F80900DFD9E2 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				F7309DC11C6A53840095DD4E /* GameScene.sks */,
 				F7309DC31C6A53840095DD4E /* GameScene.swift */,
 				F7309DC51C6A53840095DD4E /* GameViewController.swift */,
+				F74934A81C85F80900DFD9E2 /* Helper.swift */,
 				F7309DC71C6A53840095DD4E /* Main.storyboard */,
 				F7309DCA1C6A53840095DD4E /* Assets.xcassets */,
 				F7309DF11C6A54A20095DD4E /* Content */,
@@ -386,6 +389,7 @@
 				F7309DC41C6A53840095DD4E /* GameScene.swift in Sources */,
 				F7309DC61C6A53840095DD4E /* GameViewController.swift in Sources */,
 				F7309DC01C6A53840095DD4E /* AppDelegate.swift in Sources */,
+				F74934A91C85F80900DFD9E2 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

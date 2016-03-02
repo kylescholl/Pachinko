@@ -158,8 +158,21 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		}
 	}
 	
+	func destroyObject(object: SKNode) {
+		if let fireParticles = SKEmitterNode(fileNamed: "FireParticles") {
+			fireParticles.position = object.position
+			addChild(fireParticles)
+		}
+		
+		object.removeFromParent()
+	}
 	
 	func destroyBall(ball: SKNode) {
+		if let fireParticles = SKEmitterNode(fileNamed: "FireParticles") {
+			fireParticles.position = ball.position
+			addChild(fireParticles)
+		}
+		
 		ball.removeFromParent()
 	}
 	
@@ -210,7 +223,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 				} else if removeMode {
 					let object = nodeAtPoint(location)
 					if object.name == "box" {
-						object.removeFromParent()
+						//object.removeFromParent()
+						destroyObject(object)
 					} else {
 						// Do nothing //
 					}
